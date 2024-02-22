@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url("3.gif");
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            width: 300px;
+            border: 2px solid 
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .submit-btn {
+            background-color: #0e0e0e;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .icons {
+            margin-right: 10px;
+        }
+        h2 {
+            
+            color: #fbf7f7;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <form  style="background-color:rgba(63, 60, 60, 0.8) ;width:25%; height:650px;">
+        <center><h2><ins> Student Club Registration Form</ins></h2></center>
+        
+        <center><img src="free.png" alt="Registration Image" style="width:50%; height:150px;"></center>
+        
+        <label>
+            <span class="icons">👤</span>
+            <input type="text" placeholder="First Name" required>
+        </label>
+
+        <label>
+            <span class="icons">👤</span>
+            <input type="text" placeholder="Last Name" required>
+        </label>
+        
+        <label>
+            <span class="icons">📧</span>
+            <input type="Mobile" placeholder="Email Address" required>
+        </label>
+
+        <label>
+            <span class="icons">📱</span>
+            <input type="Mobile" placeholder="Mobile" required>
+        </label>
+        <label>
+        <span class="icons">✦</span>CLUBS:-
+        
+        <select>
+            <option value="content creation">content creation</option>
+            <option value="sports">sports</option>
+            <option value="Fun fest">fun fest</option>
+            <option value="cultural club">cultural club"</option>
+
+        </select>
+    </label>
+    <label>
+        <span class="icons">🧑🏼‍💼</span>Position:-
+        
+        <select>
+            <option value="President">President</option>
+            <option value="Vice President">Vice President</option>
+            <option value="Member">Member</option>
+            
+        </select>
+        </label>
+        <label>
+            <span class="icons">📒</span>Course:-
+            
+            <select>
+                <option value="BTECH">BTECH</option>
+                <option value="PGDM">PGDM</option>
+                
+                
+            </select>
+            </label>
+        <!-- <label>
+            <span class="icons">🏠</span>
+            <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+        </label> -->
+
+
+        <!-- <label>
+            <span class="icons">🔒</span>
+            <input type="password" placeholder="Password" required>
+        </label> -->
+
+    <br>
+    
+        <button type="submit" class="submit-btn">Register</button>
+    </form>
+
+</body>
+</html>
